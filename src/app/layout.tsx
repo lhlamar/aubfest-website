@@ -16,7 +16,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html>
       <body>
-      <div className="bg-gray-900 text-white scroll-smooth">
+      <div className="bg-background text-primary_text scroll-smooth">
       <Header />
       <section id="hero" className="h-screen flex items-center justify-center">
         <Hero />

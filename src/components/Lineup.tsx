@@ -1,6 +1,6 @@
 export default function Lineup() {
   return (
-    <div className="h-screen flex items-center justify-center bg-black">
+    <div className="h-screen flex items-center justify-center bg-background">
       <img
         src="/aubfest_lineup_red.gif"
         alt="Aubfest 2025 Lineup"

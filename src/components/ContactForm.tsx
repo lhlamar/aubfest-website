@@ -20,14 +20,14 @@ export default function GetInvolved() {
   };
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-gray-800 text-white p-6">
+    <div className="h-screen flex flex-col items-center justify-center bg-background text-primary p-6">
       <h2 className="text-5xl font-bold mb-6">Get Involved</h2>
       <p className="max-w-2xl text-lg text-center leading-relaxed mb-6">
         Want to be part of Aubfest? Whether you're an artist, vendor, or volunteer, we'd love to hear from you!
       </p>
 
       {/* Contact Form */}
-      <form onSubmit={handleSubmit} className="max-w-lg w-full bg-gray-900 p-6 rounded-lg shadow-lg">
+      <form onSubmit={handleSubmit} className="max-w-lg w-full bg-background_dark  p-6 rounded-lg shadow-lg">
         {/* Name */}
         <label className="block mb-2">
           Name
@@ -84,7 +84,7 @@ export default function GetInvolved() {
         </label>
 
         {/* Submit Button */}
-        <button type="submit" className="w-full p-2 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded">
+        <button type="submit" className="w-full p-2 bg-background hover:bg-blue-600 text-primary font-bold rounded">
           Send Message
         </button>
       </form>

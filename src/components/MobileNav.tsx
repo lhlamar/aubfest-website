@@ -9,13 +9,13 @@ export default function MobileNav() {
   return (
     <nav className="relative z-50">
       {/* Hamburger Icon */}
-      <button onClick={() => setIsOpen(true)} className="absolute top-4 left-4 text-white">
+      <button onClick={() => setIsOpen(true)} className="absolute top-4 left-4 text-primary">
         <Menu size={32} />
       </button>
 
       {/* Full-Screen Mobile Menu */}
       {isOpen && (
-        <div className="fixed inset-0 bg-white text-black flex flex-col items-center justify-center">
+        <div className="fixed inset-0 bg-background text-primary flex flex-col items-center justify-center">
           {/* Close Icon */}
           <button onClick={() => setIsOpen(false)} className="absolute top-6 right-6">
             <X size={32} />
